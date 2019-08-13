@@ -1,0 +1,60 @@
+@import '../../utils/variables.scss';
+@import '../../utils/mixins.scss';
+
+.footer {
+    border-top: solid 1px #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(149, 225, 211);
+  
+    &__license {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+      margin-bottom: 23px;
+      align-items: center;
+      width: 295px;
+  
+      &About {
+        @include text-decor-mont-400(14px);
+      }
+  
+      &Link {
+        display: block;
+        text-decoration: none;
+        color: #f6a6a6;
+        @include text-decor-mont-400(14px);
+        text-transform: capitalize;
+      }
+    }
+  
+    &__info {
+      display: flex;
+      width: 470px;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-bottom: 11px;
+  
+      &Email{
+        padding: 13px 142px 12px 13px;
+        border: solid 1px #e5e5e5;
+        border-right: none;
+      }
+  
+      &Email::placeholder {
+        @include text-decor-rob-300-italic(15px);
+        text-transform: capitalize;
+      }
+  
+      &Subscribe {
+        text-transform: uppercase;
+        background-color: #95e1d3;
+        @include text-decor-mont-700(14px);
+        color: #ffffff;
+        padding: 14px 33px;
+        border: none;
+      }
+    }
+  }

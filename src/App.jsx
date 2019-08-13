@@ -1,12 +1,13 @@
 import React from 'react';
-import s from './App.module.css';
+import Content from './components/Content/Content';
+import './App.scss';
 
 function App() {
   return (
-    <div className={s.App}>
-      <section className={s.toolSection}></section>
-      <section className={s.contentContainer}></section>
-      <section className={s.toolSection}></section>
+    <div className="App">
+      <section className="toolSection"></section>
+      <Content />
+      <section className="toolSection"></section>
     </div>
   );
 }

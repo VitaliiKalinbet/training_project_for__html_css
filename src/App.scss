@@ -1,0 +1,12 @@
+@import './utils/normalize.scss';
+@import './utils/fonts.scss';
+
+.App {
+  display: flex;
+  width: 100%;
+}
+
+.toolSection {
+  width: 15%;
+  background-color: black;
+}

@@ -1,0 +1,130 @@
+@import '../../utils/variables.scss';
+@import '../../utils/mixins.scss';
+
+.header {
+  margin: 0 auto;
+  background: $linear-gradient, url('../../images/eagle@1X.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  &__nav {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  margin-bottom: 164px;
+  }
+
+  &__logoLink {
+    text-decoration: none;
+    align-self: flex-start;
+  }
+
+  &__logo {
+    @include text-decor-mont-700(30px);
+    color: $color-white;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+
+  &__listItem {
+    box-sizing: border-box;
+    padding-bottom: 12px;
+  }
+
+  &__listItem:nth-child(-n+5):hover {
+    border-bottom: 3px solid $color-hover-menu;
+    padding-bottom: 12px;
+  }
+
+  &__listItem:hover a {
+    color: $color-hover-menu;
+  }
+
+  &__listItem:nth-child(-n+5) {
+    margin-right: 58px;
+  }
+
+  &__listItem:nth-child(6) {
+    margin-right: 42px;
+  }
+
+  &__listItemLink {
+    @include text-decor-mont-400(14px);
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  &__listItemCart {
+    width: 17.6px;
+    height: 14.03px;
+    fill: $color-white;
+  }
+
+  &__listItemCart:hover {
+    fill: $color-hover-menu;
+  }
+
+  &__listItemGlass {
+    width: 17.6px;
+    height: 17.6px;
+    fill: $color-white;
+  }
+
+  &__listItemGlass:hover {
+    fill: $color-hover-menu;
+  }
+
+
+  &__info {
+    padding-bottom: 225px;
+  }
+
+  &__infoTitle {
+    width: 515px;
+    margin: 0 auto;
+    @include text-decor-kaush-400-italic(72px);
+    margin-bottom: 42px;
+    color: $color-white;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  &__infoSubtitle {
+    width: 840px;
+    margin: 0 auto;
+    @include text-decor-mont-700(150px);
+    text-transform: uppercase;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 124px;
+  }
+
+  &__infoLink {
+    width: 160px;
+    margin: 0 auto;
+    border: 3px solid $color-white;
+    padding: 15px 32px 14px 33px;
+    color: $color-white;
+    @include text-decor-mont-700(14px);
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+      background: $linear-gradient, url('../../images/eagle@2X.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+     }
+  }
