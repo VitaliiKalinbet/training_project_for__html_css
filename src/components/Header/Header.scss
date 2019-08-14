@@ -6,15 +6,17 @@
   background: $linear-gradient, url('../../images/eagle@1X.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
+  margin-bottom: 40px;
 
   &__nav {
-  width: 1200px;
+  width: 960px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding-top: 28px;
-  margin-bottom: 164px;
+  padding-top: 22px;
+  margin-bottom: 60px;
   }
 
   &__logoLink {
@@ -23,7 +25,7 @@
   }
 
   &__logo {
-    @include text-decor-mont-700(30px);
+    @include text-decor-mont-700(24px);
     color: $color-white;
   }
 
@@ -31,18 +33,18 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 12px;
   }
 
   &__listItem {
     box-sizing: border-box;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
   }
 
   &__listItem:nth-child(-n+5):hover {
-    border-bottom: 3px solid $color-hover-menu;
-    padding-bottom: 12px;
+    border-bottom: 2px solid $color-hover-menu;
+    padding-bottom: 10px;
   }
 
   &__listItem:hover a {
@@ -50,15 +52,15 @@
   }
 
   &__listItem:nth-child(-n+5) {
-    margin-right: 58px;
+    margin-right: 46px;
   }
 
   &__listItem:nth-child(6) {
-    margin-right: 42px;
+    margin-right: 32px;
   }
 
   &__listItemLink {
-    @include text-decor-mont-400(14px);
+    @include text-decor-mont-400(11px);
     color: $color-white;
     text-transform: uppercase;
   }
@@ -85,33 +87,33 @@
 
 
   &__info {
-    padding-bottom: 225px;
+    padding-bottom: 90px;
   }
 
   &__infoTitle {
-    width: 515px;
+    width: 412px;
     margin: 0 auto;
-    @include text-decor-kaush-400-italic(72px);
-    margin-bottom: 42px;
+    @include text-decor-kaush-400-italic(58px);
+    margin-bottom: 32px;
     color: $color-white;
     text-transform: capitalize;
     text-align: center;
   }
 
   &__infoSubtitle {
-    width: 840px;
+    width: 672px;
     margin: 0 auto;
-    @include text-decor-mont-700(150px);
+    @include text-decor-mont-700(120px);
     text-transform: uppercase;
     color: $color-white;
     text-align: center;
-    margin-bottom: 124px;
+    margin-bottom: 50px;
   }
 
   &__infoLink {
-    width: 160px;
+    width: 128px;
     margin: 0 auto;
-    border: 3px solid $color-white;
+    border: 2px solid $color-white;
     padding: 15px 32px 14px 33px;
     color: $color-white;
     @include text-decor-mont-700(14px);

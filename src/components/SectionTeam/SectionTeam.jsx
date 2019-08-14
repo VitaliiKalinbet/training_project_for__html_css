@@ -31,8 +31,8 @@ const SectionTeam = () => {
               src={Layer1_1x}
               alt="default-img"
               srcSet={Layer1_2x}
-              width="380"
-              height="470"
+              width="304"
+              height="376"
             />
             <ul className="team__popUpList">
               <li className="team__popUpListItem">
@@ -68,8 +68,8 @@ const SectionTeam = () => {
               src={Layer2_1x}
               alt="default-img"
               srcSet={Layer2_2x}
-              width="380"
-              height="470"
+              width="304"
+              height="376"
             />
             <ul className="team__popUpList">
               <li className="team__popUpListItem">
@@ -105,8 +105,8 @@ const SectionTeam = () => {
               src={Layer3_1x}
               alt="default-img"
               srcSet={Layer3_2x}
-              width="380"
-              height="470"
+              width="304"
+              height="376"
             />
             <ul className="team__popUpList">
               <li className="team__popUpListItem">

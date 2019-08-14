@@ -20,31 +20,31 @@ const SectionServices = () => {
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li className="services__listItem">
-        <GraphSvg className="services__list--item-graph" />
+        <GraphSvg className="services__listItemSvg" />
         <h6 className="services__listItemTitle">web design</h6>
         <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li className="services__listItem">
-        <CompSvg className="services__list--item-computer" /> 
+        <CompSvg className="services__listItemSvg" /> 
         <h6 className="services__listItemTitle">creativity</h6>
         <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li className="services__listItem">
-        <BookSvg className="services__list--item-book"/>
+        <BookSvg className="services__listItemSvg"/>
         <h6 className="services__listItemTitle">seo</h6>
         <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li className="services__listItem">
-        <HomeSvg />
+        <HomeSvg className="services__listItemSvg" />
         <h6 className="services__listItemTitle">css/html</h6>
         <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
       <li className="services__listItem">
-        <ImageSvg className="services__list--item-image"/>
+        <ImageSvg className="services__listItemSvg" />
         <h6 className="services__listItemTitle">digital</h6>
         <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor</p>

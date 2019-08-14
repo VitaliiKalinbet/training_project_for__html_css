@@ -2,12 +2,14 @@
 @import '../../utils/mixins.scss';
 
 .footer {
-    border-top: solid 1px #e5e5e5;
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 0 auto;
     background-color: rgb(149, 225, 211);
+
+    &__content {
+      width: 960px;
+      display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    }
   
     &__license {
       display: flex;
@@ -32,13 +34,13 @@
   
     &__info {
       display: flex;
-      width: 470px;
+      width: 376px;
       justify-content: space-between;
       margin-top: 10px;
       margin-bottom: 11px;
   
       &Email{
-        padding: 13px 142px 12px 13px;
+        padding: 13px 40px 12px 13px;
         border: solid 1px #e5e5e5;
         border-right: none;
       }
@@ -50,7 +52,7 @@
   
       &Subscribe {
         text-transform: uppercase;
-        background-color: #95e1d3;
+        background-color: #468d80;
         @include text-decor-mont-700(14px);
         color: #ffffff;
         padding: 14px 33px;

@@ -2,36 +2,36 @@
 @import '../../utils/mixins.scss';
 
 .team {
-    margin-bottom: 82px;
+    margin-bottom: 65px;
   
     &__title {
-      width: 150px;
+      width: 120px;
       text-align: center;
       margin: 0 auto;
-      @include text-decor-kaush-400-italic(24px);
+      @include text-decor-kaush-400-italic(19px);
       color: $color-black;
-      margin-top: 50px;
-      margin-bottom: 22px;
+      margin-top: 40px;
+      margin-bottom: 17px;
       text-transform: capitalize;
     }
   
     &__subtitle {
-      width: 320px;
+      width: 256px;
       text-align: center;
       margin: 0 auto;
-      @include text-decor-mont-700(30px);
+      @include text-decor-mont-700(24px);
       color: $color-black;
-      margin-bottom: 91px;
+      margin-bottom: 70px;
       text-transform: uppercase;
       position: relative;
   
       &About {
-        width: 970px;
+        width: 776px;
         text-align: center;
         margin: 0 auto;
-        @include text-decor-rob-400(15px);
+        @include text-decor-rob-400(12px);
         color: $color-black;
-        margin-bottom: 90px;
+        margin-bottom: 72px;
       }
     }
   
@@ -42,8 +42,8 @@
       width: 60px;
       height: 3px;
       background-color: $color-after;
-      left: 126px;
-      top: 72px;
+      left: 95px;
+      top: 55px;
     }
   
     &__listItemContainer {
@@ -51,24 +51,24 @@
     }
   
     &__list {
-      width: 1200px;
+      width: 960px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
   
       &Item {
-        width: 380px;
+        width: 304px;
   
-        &listItemName{
-          @include text-decor-mont-400(14px);
+        &Name{
+          @include text-decor-mont-400(11px);
           color: #333333;
           text-align: center;
-          margin-top: 30px;
-          margin-bottom: 15px;
+          margin-top: 24px;
+          margin-bottom: 12px;
         }
   
-        &listItemProfession {
-          @include text-decor-rob-300-italic(15px);
+        &Profession {
+          @include text-decor-rob-300-italic(12px);
           color: #cacaca;
           text-align: center;
         }

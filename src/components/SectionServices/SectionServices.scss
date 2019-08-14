@@ -2,25 +2,23 @@
 @import '../../utils/mixins.scss';
 
 .services {
-    margin-bottom: 92px;
     &__title {
-      width: 150px;
+      width: 120px;
       text-align: center;
       margin: 0 auto;
-      @include text-decor-kaush-400-italic(24px);
+      @include text-decor-kaush-400-italic(19px);
       color: $color-black;
-      margin-top: 50px;
-      margin-bottom: 22px;
+      margin-bottom: 17px;
       text-transform: capitalize;
     }
   
     &__subtitle {
-      width: 320px;
+      width: 256px;
       text-align: center;
       margin: 0 auto;
-      @include text-decor-mont-700(30px);
+      @include text-decor-mont-700(24px);
       color: $color-black;
-      margin-bottom: 110px;
+      margin-bottom: 70px;
       text-transform: uppercase;
       position: relative;
     }
@@ -32,12 +30,12 @@
       width: 60px;
       height: 3px;
       background-color: $color-after;
-      left: 126px;
-      top: 72px;
+      left: 95px;
+      top: 55px;
     }
   
     &__list {
-      width: 1200px;
+      width: 960px;
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
@@ -45,10 +43,10 @@
     }
   
     &__listItem {
-      width: 340px;
+      width: 248px;
       position: relative;
-      padding-left: 60px;
-      margin-bottom: 100px;
+      padding-left: 48px;
+      margin-bottom: 70px;
   
       &Svg {
         position: absolute;
@@ -60,12 +58,12 @@
       &Title {
         @include text-decor-mont-400(14px);
         color: $color-black;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
         text-transform: uppercase;
       }
   
       &About {
-        @include text-decor-mont-400(15px);
+        @include text-decor-mont-400(12px);
         color: #b6b6b6;
       }
     }
