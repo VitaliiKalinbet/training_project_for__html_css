@@ -4,9 +4,9 @@ import { ReactComponent as CartSvg } from '../../images/sprite/cart.svg';
 import { ReactComponent as GlassSvg } from '../../images/sprite/glass.svg';
 import "./Header.scss";
 
-const Header = () => {
+const Header = ({ showHeader }) => {
   return (
-    <header className="header">
+    <header className={ showHeader ? "header checked" : "header"}>
       <nav className="header__nav">
         <a href="#" className="header__logoLink">
           <h1 className="header__logo">MoGo</h1>

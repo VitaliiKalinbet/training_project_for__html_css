@@ -12,9 +12,9 @@ import Layer3_1x from '../../images/Layer3.png';
 import Layer3_2x from '../../images/Layer3@2x.png';
 import "./SectionTeam.scss";
 
-const SectionTeam = () => {
+const SectionTeam = ({ showSectionTeam }) => {
   return (
-    <section className="team">
+    <section className = {showSectionTeam ? "team checked" : "team"}>
       <h4 className="team__title">who we are</h4>
       <h5 className="team__subtitle">meet our team</h5>
       <p className="team__subtitleAbout">

@@ -7,9 +7,9 @@ import { ReactComponent as HomeSvg } from '../../images/sprite/HOME.svg';
 import { ReactComponent as ImageSvg } from '../../images/sprite/IMAGE.svg';
 import './SectionServices.scss';
 
-const SectionServices = () => {
+const SectionServices = ({ showSectionServices }) => {
     return (
-        <section className="services">
+        <section className= {showSectionServices ? "services checked" : "services"}>
     <h4 className="services__title">we work with</h4>
     <h5 className="services__subtitle">amazing services</h5>
     <ul className="services__list">

@@ -13,17 +13,17 @@ const Content = ({ showHeader, showMain, showFooter, showSectionServices, showSe
             <Header showHeader={showHeader}/>
           </Element>
           <Element name="main">
-            <main className = {showMain ? "checked" : null}>
+            <main className = {showMain ? "main checked" : "main"}>
               <Element name="services">
-                <SectionServices />
+                <SectionServices showSectionServices={showSectionServices} />
               </Element>
               <Element name="team">
-                <SectionTeam />
+                <SectionTeam showSectionTeam={showSectionTeam} />
               </Element>
             </main>
           </Element>
           <Element name="footer">
-            <Footer />
+            <Footer showFooter={showFooter} />
           </Element>
         </section>
     );
