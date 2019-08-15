@@ -1,0 +1,36 @@
+.toolSection {
+    max-width: calc((100% - 1000px)/2);
+    background-color: black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: orange;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.checkedButton {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+    cursor: pointer;
+    background-color:rgb(105, 248, 48);
+    border: 2px solid red;
+}
