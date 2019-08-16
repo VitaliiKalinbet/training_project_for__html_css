@@ -10,43 +10,43 @@ import './SectionServices.scss';
 const SectionServices = ({ showSectionServices }) => {
     return (
         <section className= {showSectionServices ? "services checked" : "services"}>
-    <h4 className="services__title">we work with</h4>
-    <h5 className="services__subtitle">amazing services</h5>
-    <ul className="services__list">
-      <li className="services__listItem">
-        <AlarmSvg className="services__listItemSvg"/> 
-        <h6 className="services__listItemTitle">photography</h6>
-        <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
+    <h4 className={showSectionServices ? "services__title checkedTag" : "services__title"}>we work with</h4>
+    <h5 className={showSectionServices ? "services__subtitle checkedTag" : "services__subtitle"}>amazing services</h5>
+    <ul className={showSectionServices ? "services__list checkedTag" : "services__list"}>
+      <li className={showSectionServices ? "services__listItem checkedTag" : "services__listItem"}>
+        <AlarmSvg className={showSectionServices ? "services__listItemSvg checkedTag" : "services__listItemSvg"}/> 
+        <h6 className={showSectionServices ? "services__listItemTitle checkedTag" : "services__listItemTitle"}>photography</h6>
+        <p className={showSectionServices ? "services__listItemAbout checkedTag" : "services__listItemAbout"}>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li className="services__listItem">
-        <GraphSvg className="services__listItemSvg" />
-        <h6 className="services__listItemTitle">web design</h6>
-        <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
+      <li className={showSectionServices ? "services__listItem checkedTag" : "services__listItem"}>
+        <GraphSvg className={showSectionServices ? "services__listItemSvg checkedTag" : "services__listItemSvg"} />
+        <h6 className={showSectionServices ? "services__listItemTitle checkedTag" : "services__listItemTitle"}>web design</h6>
+        <p className={showSectionServices ? "services__listItemAbout checkedTag" : "services__listItemAbout"}>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li className="services__listItem">
-        <CompSvg className="services__listItemSvg" /> 
-        <h6 className="services__listItemTitle">creativity</h6>
-        <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
+      <li className={showSectionServices ? "services__listItem checkedTag" : "services__listItem"}>
+        <CompSvg className={showSectionServices ? "services__listItemSvg checkedTag" : "services__listItemSvg"} /> 
+        <h6 className={showSectionServices ? "services__listItemTitle checkedTag" : "services__listItemTitle"}>creativity</h6>
+        <p className={showSectionServices ? "services__listItemAbout checkedTag" : "services__listItemAbout"}>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li className="services__listItem">
-        <BookSvg className="services__listItemSvg"/>
-        <h6 className="services__listItemTitle">seo</h6>
-        <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
+      <li className={showSectionServices ? "services__listItem checkedTag" : "services__listItem"}>
+        <BookSvg className={showSectionServices ? "services__listItemSvg checkedTag" : "services__listItemSvg"}/>
+        <h6 className={showSectionServices ? "services__listItemTitle checkedTag" : "services__listItemTitle"}>seo</h6>
+        <p className={showSectionServices ? "services__listItemAbout checkedTag" : "services__listItemAbout"}>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li className="services__listItem">
-        <HomeSvg className="services__listItemSvg" />
-        <h6 className="services__listItemTitle">css/html</h6>
-        <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
+      <li className={showSectionServices ? "services__listItem checkedTag" : "services__listItem"}>
+        <HomeSvg className={showSectionServices ? "services__listItemSvg checkedTag" : "services__listItemSvg"} />
+        <h6 className={showSectionServices ? "services__listItemTitle checkedTag" : "services__listItemTitle"}>css/html</h6>
+        <p className={showSectionServices ? "services__listItemAbout checkedTag" : "services__listItemAbout"}>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </li>
-      <li className="services__listItem">
-        <ImageSvg className="services__listItemSvg" />
-        <h6 className="services__listItemTitle">digital</h6>
-        <p className="services__listItemAbout">Lorem ipsum dolor sit amet,
+      <li className={showSectionServices ? "services__listItem checkedTag" : "services__listItem"}>
+        <ImageSvg className={showSectionServices ? "services__listItemSvg checkedTag" : "services__listItemSvg"} />
+        <h6 className={showSectionServices ? "services__listItemTitle checkedTag" : "services__listItemTitle"}>digital</h6>
+        <p className={showSectionServices ? "services__listItemAbout checkedTag" : "services__listItemAbout"}>Lorem ipsum dolor sit amet,
         consectetur adipiscing elit, sed do eiusmod tempor</p>
       </li>
     </ul>

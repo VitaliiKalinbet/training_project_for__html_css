@@ -7,53 +7,53 @@ import "./Header.scss";
 const Header = ({ showHeader }) => {
   return (
     <header className={ showHeader ? "header checked" : "header"}>
-      <nav className="header__nav">
-        <a href="#" className="header__logoLink">
-          <h1 className="header__logo">MoGo</h1>
+      <nav className={ showHeader ? "header__nav checkedTag" : "header__nav"}>
+        <a href="#" className={ showHeader ? "header__logoLink checkedTag" : "header__logoLink"}>
+          <h1 className={ showHeader ? "header__logo checkedTag" : "header__logo"}>MoGo</h1>
         </a>
-        <ul className="header__list">
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+        <ul className={ showHeader ? "header__list checkedTag" : "header__list"}>
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               about
             </a>
           </li>
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               service
             </a>
           </li>
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               work
             </a>
           </li>
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               blog
             </a>
           </li>
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               contact
             </a>
           </li>
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               <CartSvg className="header__listItemCart" />
             </a>
           </li>
-          <li className="header__listItem">
-            <a href="#" className="header__listItemLink">
+          <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
+            <a href="#" className={ showHeader ? "header__listItemLink checkedTag" : "header__listItemLink"}>
               <GlassSvg className="header__listItemGlass" /> 
             </a>
           </li>
         </ul>
       </nav>
 
-      <div className="header__info">
-        <h2 className="header__infoTitle">creative template</h2>
-        <h3 className="header__infoSubtitle">welcome to mogo</h3>
-        <a href="#" className="header__infoLink">
+      <div className={ showHeader ? "header__info checkedTag" : "header__info"}>
+        <h2 className={ showHeader ? "header__infoTitle checkedTag" : "header__infoTitle"}>creative template</h2>
+        <h3 className={ showHeader ? "header__infoSubtitle checkedTag" : "header__infoSubtitle"}>welcome to mogo</h3>
+        <a href="#" className={ showHeader ? "header__infoLink checkedTag" : "header__infoLink"}>
           learn more
         </a>
       </div>
@@ -62,3 +62,10 @@ const Header = ({ showHeader }) => {
 };
 
 export default Header;
+
+
+
+
+
+
+

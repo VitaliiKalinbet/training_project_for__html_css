@@ -15,124 +15,121 @@ import "./SectionTeam.scss";
 const SectionTeam = ({ showSectionTeam }) => {
   return (
     <section className = {showSectionTeam ? "team checked" : "team"}>
-      <h4 className="team__title">who we are</h4>
-      <h5 className="team__subtitle">meet our team</h5>
-      <p className="team__subtitleAbout">
+      <h4 className={showSectionTeam ? "team__title checkedTag" : "team__title"}>who we are</h4>
+      <h5 className={showSectionTeam ? "team__subtitle checkedTag" : "team__subtitle"}>meet our team</h5>
+      <p className={showSectionTeam ? "team__subtitleAbout checkedTag" : "team__subtitleAbout"}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       </p>
-      <ul className="team__list">
-        <li className="team__listItem">
-          <div className="team__listItemContainer">
+      <ul className={showSectionTeam ? "team__list checkedTag" : "team__list"}>
+        <li className={showSectionTeam ? "team__listItem checkedTag" : "team__listItem"}>
+          <div className={showSectionTeam ? "team__listItemContainer checkedTag" : "team__listItemContainer"}>
             <img
-              className="team__listItemImg"
               src={Layer1_1x}
               alt="default-img"
               srcSet={Layer1_2x}
               width="304"
               height="376"
             />
-            <ul className="team__popUpList">
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <FacebookSvg className="team__popUpListFacebook team__popUpListSvg" />
+            <ul className={showSectionTeam ? "team__popUpList checkedTag" : "team__popUpList"}>
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <FacebookSvg className={showSectionTeam ? "team__popUpListFacebook team__popUpListSvg checkedTag" : "team__popUpListFacebook team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <TwitterSvg className="team__popUpListTwitter team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <TwitterSvg className={showSectionTeam ? "team__popUpListTwitter team__popUpListSvg checkedTag" : "team__popUpListTwitter team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <PinterestSvg className="team__popUpListPinterest team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <PinterestSvg className={showSectionTeam ? "team__popUpListPinterest team__popUpListSvg checkedTag" : "team__popUpListPinterest team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <InstaSvg className="team__popUpListInstagram team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <InstaSvg className={showSectionTeam ? "team__popUpListInstagram team__popUpListSvg checkedTag" : "team__popUpListInstagram team__popUpListSvg"} />
                 </a>
               </li>
             </ul>
           </div>
-          <h6 className="team__listItemName">Matthew Dix</h6>
-          <p className="team__listItemProfession">Graphic Design</p>
+          <h6 className={showSectionTeam ? "team__listItemName checkedTag" : "team__listItemName"}>Matthew Dix</h6>
+          <p className={showSectionTeam ? "team__listItemProfession checkedTag" : "team__listItemProfession"}>Graphic Design</p>
         </li>
 
-        <li className="team__listItem">
-          <div className="team__listItemContainer">
+        <li className={showSectionTeam ? "team__listItem checkedTag" : "team__listItem"}>
+          <div className={showSectionTeam ? "team__listItemContainer checkedTag" : "team__listItemContainer"}>
             <img
-              className="team__list--item-img"
               src={Layer2_1x}
               alt="default-img"
               srcSet={Layer2_2x}
               width="304"
               height="376"
             />
-            <ul className="team__popUpList">
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <FacebookSvg className="team__popUpListFacebook team__popUpListSvg" />
+            <ul className={showSectionTeam ? "team__popUpList checkedTag" : "team__popUpList"}>
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <FacebookSvg className={showSectionTeam ? "team__popUpListFacebook team__popUpListSvg checkedTag" : "team__popUpListFacebook team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <TwitterSvg className="team__popUpListTwitter team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <TwitterSvg className={showSectionTeam ? "team__popUpListTwitter team__popUpListSvg checkedTag" : "team__popUpListTwitter team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <PinterestSvg className="team__popUpListPinterest team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <PinterestSvg className={showSectionTeam ? "team__popUpListPinterest team__popUpListSvg checkedTag" : "team__popUpListPinterest team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <InstaSvg className="team__popUpListInstagram team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <InstaSvg className={showSectionTeam ? "team__popUpListInstagram team__popUpListSvg checkedTag" : "team__popUpListInstagram team__popUpListSvg"} />
                 </a>
               </li>
             </ul>
           </div>
-          <h6 className="team__listItemName">Christopher Campbell</h6>
-          <p className="team__listItemProfession">Branding/UX design</p>
+          <h6 className={showSectionTeam ? "team__listItemName checkedTag" : "team__listItemName"}>Christopher Campbell</h6>
+          <p className={showSectionTeam ? "team__listItemProfession checkedTag" : "team__listItemProfession"}>Branding/UX design</p>
         </li>
 
-        <li className="team__listItem">
-          <div className="team__listItemContainer">
+        <li className={showSectionTeam ? "team__listItem checkedTag" : "team__listItem"}>
+          <div className={showSectionTeam ? "team__listItemContainer checkedTag" : "team__listItemContainer"}>
             <img
-              className="team__list--item-img"
               src={Layer3_1x}
               alt="default-img"
               srcSet={Layer3_2x}
               width="304"
               height="376"
             />
-            <ul className="team__popUpList">
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <FacebookSvg className="team__popUpListFacebook team__popUpListSvg" />
+            <ul className={showSectionTeam ? "team__popUpList checkedTag" : "team__popUpList"}>
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <FacebookSvg className={showSectionTeam ? "team__popUpListFacebook team__popUpListSvg checkedTag" : "team__popUpListFacebook team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <TwitterSvg className="team__popUpListTwitter team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <TwitterSvg className={showSectionTeam ? "team__popUpListTwitter team__popUpListSvg checkedTag" : "team__popUpListTwitter team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <PinterestSvg className="team__popUpListPinterest team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <PinterestSvg className={showSectionTeam ? "team__popUpListPinterest team__popUpListSvg checkedTag" : "team__popUpListPinterest team__popUpListSvg"} />
                 </a>
               </li>
-              <li className="team__popUpListItem">
-                <a href="#" className="team__popUpListLink">
-                  <InstaSvg className="team__popUpListInstagram team__popUpListSvg" />
+              <li className={showSectionTeam ? "team__popUpListItem checkedTag" : "team__popUpListItem"}>
+                <a href="#" className={showSectionTeam ? "team__popUpListLink checkedTag" : "team__popUpListLink"}>
+                  <InstaSvg className={showSectionTeam ? "team__popUpListInstagram team__popUpListSvg checkedTag" : "team__popUpListInstagram team__popUpListSvg"} />
                 </a>
               </li>
             </ul>
           </div>
-          <h6 className="team__listItemName">Michael Fertig</h6>
-          <p className="team__listItemProfession">Developer</p>
+          <h6 className={showSectionTeam ? "team__listItemName checkedTag" : "team__listItemName"}>Michael Fertig</h6>
+          <p className={showSectionTeam ? "team__listItemProfession checkedTag" : "team__listItemProfession"}>Developer</p>
         </li>
       </ul>
     </section>
