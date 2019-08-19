@@ -1,4 +1,47 @@
 .toolSection {
-    width: calc((100% - 1000px)/2);
-    background-color: black;
-  }
+  width: calc((100% - 1000px)/2);
+  background-color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixedContainer {
+  padding: 1rem 0;
+  position: fixed;
+  width: calc((100% - 1000px)/2);
+  height: 100vh;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 140px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: orange;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.checkedButton {
+  width: 140px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color:rgb(105, 248, 48);
+  border: 2px solid red;
+}

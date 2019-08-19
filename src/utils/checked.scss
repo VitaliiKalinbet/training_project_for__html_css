@@ -9,26 +9,7 @@
     background-color: rgba(241, 143, 143, 0.6);
 }
 
-// .block {
-//     display: block;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     font-size: 1rem;
-//     color: darkblue;
-//     z-index: 100;
-// }
-
-// .block:hover {
-//     display: block;
-//     position: absolute;
-//     top: 50px;
-//     left: 0;
-//     font-size: 3rem;
-//     color: darkblue;
-//     z-index: 100;
-// }
-
-// .none {
-//     display: none;
-// }
+.checkedTagBem {
+    border: 1px dashed red;
+    background-color: rgba(228, 222, 222, 0.6);
+}

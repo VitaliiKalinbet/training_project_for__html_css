@@ -6,7 +6,7 @@ import SectionTeam from '../SectionTeam/SectionTeam';
 import Footer from '../Footer/Footer';
 import './Content.scss';
 
-const Content = ({ showHeader, showMain, showFooter, showSectionServices, showSectionTeam }) => {
+const Content = ({ showHeader, showMain, showFooter, showSectionServices, showSectionTeam, showBem }) => {
     return (
         <section className="contentContainer">
           <Element name="header">
@@ -15,10 +15,10 @@ const Content = ({ showHeader, showMain, showFooter, showSectionServices, showSe
           <Element name="main">
             <main className = {showMain ? "main checked" : "main"}>
               <Element name="services">
-                <SectionServices showSectionServices={showSectionServices} />
+                <SectionServices showBem={showBem} showSectionServices={showSectionServices} />
               </Element>
               <Element name="team">
-                <SectionTeam showSectionTeam={showSectionTeam} />
+                <SectionTeam showBem={showBem} showSectionTeam={showSectionTeam} />
               </Element>
             </main>
           </Element>

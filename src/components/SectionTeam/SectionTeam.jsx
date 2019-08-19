@@ -12,16 +12,22 @@ import Layer3_1x from '../../images/Layer3.png';
 import Layer3_2x from '../../images/Layer3@2x.png';
 import "./SectionTeam.scss";
 
-const SectionTeam = ({ showSectionTeam }) => {
+const SectionTeam = ({ showSectionTeam, showBem }) => {
   return (
     <section className = {showSectionTeam ? "team checked" : "team"}>
-      <h4 className={showSectionTeam ? "team__title checkedTag" : "team__title"}>who we are</h4>
-      <h5 className={showSectionTeam ? "team__subtitle checkedTag" : "team__subtitle"}>meet our team</h5>
-      <p className={showSectionTeam ? "team__subtitleAbout checkedTag" : "team__subtitleAbout"}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+      <header className={showBem ? "heading checkedTagBem" : "heading" }>
+        {showBem && <span className="heading__absoluteClassHeading">class="heading"</span>}
+        <h3 className={showSectionTeam ? "heading__subtitle--dark checkedTag" : "heading__subtitle--dark"}>who we are</h3>
+        {showBem && <span className="heading__absoluteClassSubTitle">class="heading__subtitle--dark"</span>}
+        <h2 className={showSectionTeam ? "heading__title--dark checkedTag" : "heading__title--dark"}>meet our team</h2>
+        {showBem && <span className="heading__absoluteClassTitle">class="heading__title--dark"</span>}
+        {showBem && <span className="heading__absoluteClassTitleAfter">class="heading__title--dark:after"</span>}
+      </header>
+      <p className={showSectionTeam ? "team__About checkedTag" : "team__About"}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.
       </p>
       <ul className={showSectionTeam ? "team__list checkedTag" : "team__list"}>
         <li className={showSectionTeam ? "team__listItem checkedTag" : "team__listItem"}>

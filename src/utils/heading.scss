@@ -1,0 +1,108 @@
+@import './variables.scss';
+@import './mixins.scss';
+@import './checked.scss';
+
+.heading {
+    position: relative;
+    &__title {
+
+        &--green {
+            width: 260px;
+            text-align: center;
+            margin: 0 auto;
+            @include text-decor-mont-700(24px);
+            margin-bottom: 70px;
+            text-transform: uppercase;
+            position: relative;
+            color: $default-color-turquoise;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                width: 60px;
+                height: 3px;
+                background-color: $default-color-turquoise;
+                left: 95px;
+                top: 55px;
+            }
+        }
+
+        &--dark {
+            width: 260px;
+            text-align: center;
+            margin: 0 auto;
+            @include text-decor-mont-700(24px);
+            margin-bottom: 70px;
+            text-transform: uppercase;
+            position: relative;
+            color: $color-black;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                width: 60px;
+                height: 3px;
+                background-color: $color-black;
+                left: 95px;
+                top: 55px;
+            }
+        }       
+    }
+    
+    &__subtitle {
+
+        &--green {
+            width: 122px;
+            text-align: center;
+            margin: 0 auto;
+            @include text-decor-kaush-400-italic(19px);
+            margin-bottom: 17px;
+            text-transform: capitalize;
+            color: $default-color-turquoise;
+        }
+    
+        &--dark {
+            width: 122px;
+            text-align: center;
+            margin: 0 auto;
+            @include text-decor-kaush-400-italic(19px);
+            margin-bottom: 17px;
+            text-transform: capitalize;
+            color: $color-black;
+        }  
+    }
+
+    &__absoluteClassHeading{
+        position: absolute;
+        top: 0;
+        left: 10px;
+        color: red;
+        font-size: 1rem;
+    }
+
+    &__absoluteClassSubTitle {
+        position: absolute;
+        top: 5px;
+        right: 200px;
+        color: orange;
+        font-size: 1rem;
+    }
+
+    &__absoluteClassTitle {
+        position: absolute;
+        top: 45px;
+        right: 155px;
+        color: orange;
+        font-size: 1rem;
+    }
+
+    &__absoluteClassTitleAfter {
+        position: absolute;
+        top: 85px;
+        right: 220px;
+        color: orange;
+        font-size: 1rem;
+    }
+}
