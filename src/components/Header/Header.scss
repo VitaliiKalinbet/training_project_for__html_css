@@ -25,8 +25,7 @@
   }
 
   &__logo {
-    @include text-decor-mont-700(24px);
-    color: $color-white;
+    fill: $color-white;
   }
 
   &__list {

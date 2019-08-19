@@ -16,12 +16,12 @@ const SectionTeam = ({ showSectionTeam, showBem }) => {
   return (
     <section className = {showSectionTeam ? "team checked" : "team"}>
       <header className={showBem ? "heading checkedTagBem" : "heading" }>
-        {showBem && <span className="heading__absoluteClassHeading">class="heading"</span>}
-        <h3 className={showSectionTeam ? "heading__subtitle--dark checkedTag" : "heading__subtitle--dark"}>who we are</h3>
-        {showBem && <span className="heading__absoluteClassSubTitle">class="heading__subtitle--dark"</span>}
-        <h2 className={showSectionTeam ? "heading__title--dark checkedTag" : "heading__title--dark"}>meet our team</h2>
-        {showBem && <span className="heading__absoluteClassTitle">class="heading__title--dark"</span>}
-        {showBem && <span className="heading__absoluteClassTitleAfter">class="heading__title--dark:after"</span>}
+        {showBem && <span className="heading__absoluteClassHeading">heading</span>}
+        <h3 className={showSectionTeam ? "heading__subtitle heading__subtitle--dark checkedTag" : "heading__subtitle heading__subtitle--dark"}>who we are</h3>
+        {showBem && <span className="heading__absoluteClassSubTitle">heading__subtitle heading__subtitle--dark</span>}
+        <h2 className={showSectionTeam ? "heading__title heading__title--dark checkedTag" : "heading__title heading__title--dark"}>meet our team</h2>
+        {showBem && <span className="heading__absoluteClassTitle">heading__title heading__title--dark</span>}
+        {showBem && <span className="heading__absoluteClassTitleAfter">heading__title--dark:after</span>}
       </header>
       <p className={showSectionTeam ? "team__About checkedTag" : "team__About"}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

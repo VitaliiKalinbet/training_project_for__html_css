@@ -11,28 +11,28 @@ const SectionServices = ({ showSectionServices, showBem }) => {
   return (
     <section className={showSectionServices ? "services checked" : "services"}>
       <header className={showBem ? "heading checkedTagBem" : "heading" }>
-        {showBem && <span className="heading__absoluteClassHeading">class="heading"</span>}
+        {showBem && <span className="heading__absoluteClassHeading">heading</span>}
         <h3
           className={
             showSectionServices
-              ? "heading__subtitle--green checkedTag"
-              : "heading__subtitle--green"
+              ? "heading__subtitle heading__subtitle--green checkedTag"
+              : "heading__subtitle heading__subtitle--green"
           }
         >
           we work with
         </h3>
-        {showBem && <span className="heading__absoluteClassSubTitle">class="heading__subtitle--green"</span>}
+        {showBem && <span className="heading__absoluteClassSubTitle">heading__subtitle heading__subtitle--green</span>}
         <h2
           className={
             showSectionServices
-              ? "heading__title--green checkedTag"
-              : "heading__title--green"
+              ? "heading__title heading__title--green checkedTag"
+              : "heading__title heading__title--green"
           }
         >
           amazing services
         </h2>
-        {showBem && <span className="heading__absoluteClassTitle">class="heading__title--green"</span>}
-        {showBem && <span className="heading__absoluteClassTitleAfter">class="heading__title--green:after"</span>}
+        {showBem && <span className="heading__absoluteClassTitle">heading__title heading__title--green</span>}
+        {showBem && <span className="heading__absoluteClassTitleAfter">heading__title--green:after</span>}
       </header>
       <ul
         className={
