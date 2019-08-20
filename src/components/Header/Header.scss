@@ -28,6 +28,10 @@
     fill: $color-white;
   }
 
+  &__logo > g > text > tspan:hover {
+    fill: $color-hover-menu;
+  }
+
   &__list {
     list-style: none;
     display: flex;
@@ -53,7 +57,7 @@
   &__listItem:nth-child(-n+5) {
     margin-right: 46px;
   }
-
+ 
   &__listItem:nth-child(6) {
     margin-right: 32px;
   }
@@ -71,6 +75,16 @@
   }
 
   &__listItemCart:hover {
+    fill: $color-hover-menu;
+  }
+
+  &__logo {
+    width: 86px;
+    height: 23px;
+    fill: $color-white;
+  }
+
+  &__logo:hover {
     fill: $color-hover-menu;
   }
 

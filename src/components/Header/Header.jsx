@@ -3,7 +3,6 @@ import React from "react";
 import { ReactComponent as CartSvg } from '../../images/sprite/cart.svg';
 import { ReactComponent as GlassSvg } from '../../images/sprite/glass.svg';
 import { ReactComponent as LogoSvg } from '../../images/sprite/logo.svg';
-// import LogoSvg from '../../images/logo.svg';
 import "./Header.scss";
 
 const Header = ({ showHeader }) => {
@@ -11,12 +10,7 @@ const Header = ({ showHeader }) => {
     <header className={ showHeader ? "header checked" : "header"}>
       <nav className={ showHeader ? "header__nav checkedTag" : "header__nav"}>
         <a href="#" className={ showHeader ? "header__logoLink checkedTag" : "header__logoLink"}>
-          {/* <h1 className={ showHeader ? "header__logo checkedTag" : "header__logo"}>MoGo</h1> */}
-          {/* <img className={ showHeader ? "header__logo checkedTag" : "header__logo"} src={LogoSvg} alt="logo"/> */}
-          {/* <svg>
-            <use href="../../images/logo.svg"></use>
-          </svg> */}
-          <LogoSvg className="header__listItemCart"/> 
+          <LogoSvg className="header__logo" />
         </a>
         <ul className={ showHeader ? "header__list checkedTag" : "header__list"}>
           <li className={ showHeader ? "header__listItem checkedTag" : "header__listItem"}>
